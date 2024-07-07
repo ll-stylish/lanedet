@@ -1,0 +1,8 @@
+prefix=/home/yuyang/catkin_ws/devel
+
+Name: lane_det
+Description: Description of lane_det
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/yuyang/catkin_ws/devel
+
+Name: mick_bringup
+Description: Description of mick_bringup
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: serial std_msgs

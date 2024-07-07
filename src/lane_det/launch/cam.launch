@@ -1,0 +1,10 @@
+<launch>
+    <!--usb摄像头初始化-->
+    <include file='/opt/ros/noetic/share/usb_cam/launch/usb_cam-test.launch'/>
+
+    <node pkg="lane_det" name="cam" type="pub_cam.py" output="screen">
+        <param name="cam_topic_param" value="/usb_cam/image_raw"/>
+    </node>
+
+    <!-- <param name="/usb_cam"  value="$(arg usb_sim)"> -->
+</launch>

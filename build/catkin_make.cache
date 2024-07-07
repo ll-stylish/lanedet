@@ -1,0 +1,2 @@
+lane_det:mick_bringup
+-DCATKIN_DEVEL_PREFIX=/home/yuyang/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/yuyang/catkin_ws/install -G Unix Makefiles
